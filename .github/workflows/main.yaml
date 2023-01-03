@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: Amazon linux
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: Anil-55/s3-sync-action@master
