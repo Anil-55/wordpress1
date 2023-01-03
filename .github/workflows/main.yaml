@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@master
       with:      
         aws-region: us-east-1 # Use your bucket region here
         aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
