@@ -12,7 +12,8 @@ jobs:
       uses: aws-actions/configure-aws-credentials@master
       with:      
         aws-region: us-east-1 # Use your bucket region here
-        aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+        #aws_s3_bucket: ${{ secrets.AWS_S3_BUCKET }}
+        aws_s3_bucket: wordpress27980
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
               
